@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tarea 2 Curso React</title>
+    <script src="js/formularios.js"></script>
+    <link rel="stylesheet" href="formularios.css">
+
+</head>
+
+<body>
+    <h1 style="color:blueviolet">Palabra Palindrome</h1>
+    <form>
+        <h4>Ingrese una palabra</h4>
+        <input type="text" id="palabra" name="palabra" placeholder="palabra..." />
+        <br>
+        <br>
+        <button type="button" id="ejecutar" onclick="revisarPalabra()">Ejecutar</button>
+        <p id="resultado"></p>
+    </form>
+<br>
+<br>
+<br>
+    <h1 style="color:blueviolet">Sustituir vocales</h1>
+    <form>
+        <h4>Ingrese nombre completo</h4>
+        <input type="text" id="nombre" name="nombre" placeholder="nombre..." />
+        <br>
+    <h4>Ingrese caracter</h4>
+        <input type="text" id="caracter" name="caracter" placeholder="caracter..." />
+        <br>
+        <br>
+        <button type="button" id="ejecutar" onclick="sustituirVocal()">Ejecutar</button>
+        <p id="resultadoSustituir"></p>
+    </form>
+    <br>
+<br>
+<br>
+    <h1 style="color:blueviolet">Fecha de Cumpleaños</h1>
+    <form>
+        <h4>Ingrese nombre completo</h4>
+        <input type="text" id="nombreC" name="nombreC" placeholder="nombre..." />
+        <br>
+    <h4>Ingrese fecha de Cumpleaños</h4>
+        <input type="date" id="fecha" name="fecha" placeholder="fecha..." />
+        <br>
+        <br>
+        <button type="button" id="ejecutar" onclick="calcularFecha()">Ejecutar</button>
+        <p id="resultadoFecha"></p>
+    </form>
+    <br>
+<br>
+<br>
+    <h1 style="color:blueviolet">Pintar numeros primos</h1>
+     <form>
+    <fieldset>
+     <legend>Problema 4, N&uacute;meros primos </legend>
+     <button type="button" onclick="calculaPrimos()">Calcular primos</button>
+     <div id="listadoPrimos">
+
+
+     </div>
+    </fieldset>
+  </form> 
+</body>
+</html>
